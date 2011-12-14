@@ -9,13 +9,8 @@
 /* Begin PBXBuildFile section */
 		A5A2A5A414983B4600F3DF8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A2A5A314983B4600F3DF8C /* UIKit.framework */; };
 		A5A2A5A614983B4600F3DF8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A2A5A514983B4600F3DF8C /* Foundation.framework */; };
-		A5A2A5A814983B4600F3DF8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A2A5A714983B4600F3DF8C /* CoreGraphics.framework */; };
 		A5A2A5AE14983B4600F3DF8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5AC14983B4600F3DF8C /* InfoPlist.strings */; };
 		A5A2A5B014983B4600F3DF8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A2A5AF14983B4600F3DF8C /* main.m */; };
-		A5A2A5B414983B4600F3DF8C /* DHDBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A2A5B314983B4600F3DF8C /* DHDBAppDelegate.m */; };
-		A5A2A5B714983B4600F3DF8C /* DHDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A2A5B614983B4600F3DF8C /* DHDBViewController.m */; };
-		A5A2A5BA14983B4600F3DF8C /* DHDBViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5B814983B4600F3DF8C /* DHDBViewController_iPhone.xib */; };
-		A5A2A5BD14983B4600F3DF8C /* DHDBViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5BB14983B4600F3DF8C /* DHDBViewController_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +18,10 @@
 		A5A2A5A314983B4600F3DF8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5A2A5A514983B4600F3DF8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A5A2A5A714983B4600F3DF8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A5A2A5AB14983B4600F3DF8C /* Brightness100-Info.plist */ = {isa = PBXFileReference; path = "Brightness100-Info.plist"; sourceTree = "<group>"; };
+		A5A2A5AB14983B4600F3DF8C /* Brightness100-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brightness100-Info.plist"; sourceTree = "<group>"; };
 		A5A2A5AD14983B4600F3DF8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5A2A5AF14983B4600F3DF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A5A2A5B114983B4600F3DF8C /* Brightness100-Prefix.pch */ = {isa = PBXFileReference; path = "Brightness100-Prefix.pch"; sourceTree = "<group>"; };
-		A5A2A5B214983B4600F3DF8C /* DHDBAppDelegate.h */ = {isa = PBXFileReference; path = DHDBAppDelegate.h; sourceTree = "<group>"; };
-		A5A2A5B314983B4600F3DF8C /* DHDBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHDBAppDelegate.m; sourceTree = "<group>"; };
-		A5A2A5B514983B4600F3DF8C /* DHDBViewController.h */ = {isa = PBXFileReference; path = DHDBViewController.h; sourceTree = "<group>"; };
-		A5A2A5B614983B4600F3DF8C /* DHDBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHDBViewController.m; sourceTree = "<group>"; };
-		A5A2A5B914983B4600F3DF8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DHDBViewController_iPhone.xib; sourceTree = "<group>"; };
-		A5A2A5BC14983B4600F3DF8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DHDBViewController_iPad.xib; sourceTree = "<group>"; };
+		A5A2A5B114983B4600F3DF8C /* Brightness100-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brightness100-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +31,6 @@
 			files = (
 				A5A2A5A414983B4600F3DF8C /* UIKit.framework in Frameworks */,
 				A5A2A5A614983B4600F3DF8C /* Foundation.framework in Frameworks */,
-				A5A2A5A814983B4600F3DF8C /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,34 +67,20 @@
 		A5A2A5A914983B4600F3DF8C /* Brightness100 */ = {
 			isa = PBXGroup;
 			children = (
-				A5A2A5B214983B4600F3DF8C /* DHDBAppDelegate.h */,
-				A5A2A5B314983B4600F3DF8C /* DHDBAppDelegate.m */,
-				A5A2A5B514983B4600F3DF8C /* DHDBViewController.h */,
-				A5A2A5B614983B4600F3DF8C /* DHDBViewController.m */,
-				A5A2A5B814983B4600F3DF8C /* DHDBViewController_iPhone.xib */,
-				A5A2A5BB14983B4600F3DF8C /* DHDBViewController_iPad.xib */,
-				A5A2A5AA14983B4600F3DF8C /* Supporting Files */,
-			);
-			path = Brightness100;
-			sourceTree = "<group>";
-		};
-		A5A2A5AA14983B4600F3DF8C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
 				A5A2A5AB14983B4600F3DF8C /* Brightness100-Info.plist */,
 				A5A2A5AC14983B4600F3DF8C /* InfoPlist.strings */,
 				A5A2A5AF14983B4600F3DF8C /* main.m */,
 				A5A2A5B114983B4600F3DF8C /* Brightness100-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = Brightness100;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A5A2A59E14983B4600F3DF8C /* Brightness100 */ = {
+		A5A2A59E14983B4600F3DF8C /* Glare 100 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5A2A5C014983B4600F3DF8C /* Build configuration list for PBXNativeTarget "Brightness100" */;
+			buildConfigurationList = A5A2A5C014983B4600F3DF8C /* Build configuration list for PBXNativeTarget "Glare 100" */;
 			buildPhases = (
 				A5A2A59B14983B4600F3DF8C /* Sources */,
 				A5A2A59C14983B4600F3DF8C /* Frameworks */,
@@ -116,7 +90,7 @@
 			);
 			dependencies = (
 			);
-			name = Brightness100;
+			name = "Glare 100";
 			productName = Brightness100;
 			productReference = A5A2A59F14983B4600F3DF8C /* Brightness100.app */;
 			productType = "com.apple.product-type.application";
@@ -142,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5A2A59E14983B4600F3DF8C /* Brightness100 */,
+				A5A2A59E14983B4600F3DF8C /* Glare 100 */,
 			);
 		};
 /* End PBXProject section */
@@ -153,8 +127,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5A2A5AE14983B4600F3DF8C /* InfoPlist.strings in Resources */,
-				A5A2A5BA14983B4600F3DF8C /* DHDBViewController_iPhone.xib in Resources */,
-				A5A2A5BD14983B4600F3DF8C /* DHDBViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,8 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5A2A5B014983B4600F3DF8C /* main.m in Sources */,
-				A5A2A5B414983B4600F3DF8C /* DHDBAppDelegate.m in Sources */,
-				A5A2A5B714983B4600F3DF8C /* DHDBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,22 +150,6 @@
 				A5A2A5AD14983B4600F3DF8C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A5A2A5B814983B4600F3DF8C /* DHDBViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5A2A5B914983B4600F3DF8C /* en */,
-			);
-			name = DHDBViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		A5A2A5BB14983B4600F3DF8C /* DHDBViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5A2A5BC14983B4600F3DF8C /* en */,
-			);
-			name = DHDBViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,7 +236,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5A2A5C014983B4600F3DF8C /* Build configuration list for PBXNativeTarget "Brightness100" */ = {
+		A5A2A5C014983B4600F3DF8C /* Build configuration list for PBXNativeTarget "Glare 100" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5A2A5C114983B4600F3DF8C /* Debug */,
