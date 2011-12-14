@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A5A2A5A414983B4600F3DF8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A2A5A314983B4600F3DF8C /* UIKit.framework */; };
 		A5A2A5A614983B4600F3DF8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A2A5A514983B4600F3DF8C /* Foundation.framework */; };
-		A5A2A5B014983B4600F3DF8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A2A5AF14983B4600F3DF8C /* main.m */; };
 		A5A2A5C41498429900F3DF8C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5C31498429900F3DF8C /* Icon.png */; };
 		A5A2A5C61498429E00F3DF8C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5C51498429E00F3DF8C /* Icon@2x.png */; };
 		A5A2A5C8149842A300F3DF8C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5C7149842A300F3DF8C /* Icon-72.png */; };
@@ -17,14 +16,15 @@
 		A5A2A5CD1498437300F3DF8C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5CC1498437300F3DF8C /* Default@2x.png */; };
 		A5A2A5CF1498437900F3DF8C /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5CE1498437900F3DF8C /* Default-Portrait~ipad.png */; };
 		A5A2A5D11498437D00F3DF8C /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5D01498437D00F3DF8C /* Default-Landscape~ipad.png */; };
+		A5CBC83B149848120084ED92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A2A5AF14983B4600F3DF8C /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5A2A59F14983B4600F3DF8C /* All the Way.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "All the Way.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A2A5A314983B4600F3DF8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5A2A5A514983B4600F3DF8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A5A2A5AB14983B4600F3DF8C /* All the Way-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "All the Way-Info.plist"; sourceTree = "<group>"; };
-		A5A2A5AF14983B4600F3DF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A2A5AB14983B4600F3DF8C /* All the Way-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "All the Way-Info.plist"; path = "All the Way/All the Way-Info.plist"; sourceTree = "<group>"; };
+		A5A2A5AF14983B4600F3DF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "All the Way/main.m"; sourceTree = SOURCE_ROOT; };
 		A5A2A5C31498429900F3DF8C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		A5A2A5C51498429E00F3DF8C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		A5A2A5C7149842A300F3DF8C /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A2A5B014983B4600F3DF8C /* main.m in Sources */,
+				A5CBC83B149848120084ED92 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +225,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = "Brightness100/All the Way-Info.plist";
+				INFOPLIST_FILE = "All The Way/All the Way-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -234,10 +234,14 @@
 		A5A2A5C214983B4600F3DF8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = "Brightness100/All the Way-Info.plist";
+				INFOPLIST_FILE = "All The Way/All the Way-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
