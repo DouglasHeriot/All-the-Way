@@ -9,19 +9,15 @@
 /* Begin PBXBuildFile section */
 		A5A2A5A414983B4600F3DF8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A2A5A314983B4600F3DF8C /* UIKit.framework */; };
 		A5A2A5A614983B4600F3DF8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A2A5A514983B4600F3DF8C /* Foundation.framework */; };
-		A5A2A5AE14983B4600F3DF8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5AC14983B4600F3DF8C /* InfoPlist.strings */; };
 		A5A2A5B014983B4600F3DF8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A2A5AF14983B4600F3DF8C /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A5A2A59F14983B4600F3DF8C /* Brightness100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brightness100.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A2A59F14983B4600F3DF8C /* All the Way.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "All the Way.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A2A5A314983B4600F3DF8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5A2A5A514983B4600F3DF8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A5A2A5A714983B4600F3DF8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A5A2A5AB14983B4600F3DF8C /* Brightness100-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brightness100-Info.plist"; sourceTree = "<group>"; };
-		A5A2A5AD14983B4600F3DF8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5A2A5AF14983B4600F3DF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A5A2A5B114983B4600F3DF8C /* Brightness100-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brightness100-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +45,7 @@
 		A5A2A5A014983B4600F3DF8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5A2A59F14983B4600F3DF8C /* Brightness100.app */,
+				A5A2A59F14983B4600F3DF8C /* All the Way.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,7 +55,6 @@
 			children = (
 				A5A2A5A314983B4600F3DF8C /* UIKit.framework */,
 				A5A2A5A514983B4600F3DF8C /* Foundation.framework */,
-				A5A2A5A714983B4600F3DF8C /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -68,9 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				A5A2A5AB14983B4600F3DF8C /* Brightness100-Info.plist */,
-				A5A2A5AC14983B4600F3DF8C /* InfoPlist.strings */,
 				A5A2A5AF14983B4600F3DF8C /* main.m */,
-				A5A2A5B114983B4600F3DF8C /* Brightness100-Prefix.pch */,
 			);
 			path = Brightness100;
 			sourceTree = "<group>";
@@ -78,9 +71,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A5A2A59E14983B4600F3DF8C /* Glare 100 */ = {
+		A5A2A59E14983B4600F3DF8C /* All the Way */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5A2A5C014983B4600F3DF8C /* Build configuration list for PBXNativeTarget "Glare 100" */;
+			buildConfigurationList = A5A2A5C014983B4600F3DF8C /* Build configuration list for PBXNativeTarget "All the Way" */;
 			buildPhases = (
 				A5A2A59B14983B4600F3DF8C /* Sources */,
 				A5A2A59C14983B4600F3DF8C /* Frameworks */,
@@ -90,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = "Glare 100";
+			name = "All the Way";
 			productName = Brightness100;
-			productReference = A5A2A59F14983B4600F3DF8C /* Brightness100.app */;
+			productReference = A5A2A59F14983B4600F3DF8C /* All the Way.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5A2A59E14983B4600F3DF8C /* Glare 100 */,
+				A5A2A59E14983B4600F3DF8C /* All the Way */,
 			);
 		};
 /* End PBXProject section */
@@ -126,7 +119,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A2A5AE14983B4600F3DF8C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,17 +134,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A5A2A5AC14983B4600F3DF8C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5A2A5AD14983B4600F3DF8C /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A5A2A5BE14983B4600F3DF8C /* Debug */ = {
@@ -206,7 +187,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Brightness100/Brightness100-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "Brightness100/Brightness100-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -217,7 +198,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Brightness100/Brightness100-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "Brightness100/Brightness100-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -236,7 +217,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5A2A5C014983B4600F3DF8C /* Build configuration list for PBXNativeTarget "Glare 100" */ = {
+		A5A2A5C014983B4600F3DF8C /* Build configuration list for PBXNativeTarget "All the Way" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5A2A5C114983B4600F3DF8C /* Debug */,
