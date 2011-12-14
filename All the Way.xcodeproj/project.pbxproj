@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5A2A5A414983B4600F3DF8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A2A5A314983B4600F3DF8C /* UIKit.framework */; };
+		A5A2A5A614983B4600F3DF8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A2A5A514983B4600F3DF8C /* Foundation.framework */; };
+		A5A2A5B014983B4600F3DF8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A2A5AF14983B4600F3DF8C /* main.m */; };
+		A5A2A5C41498429900F3DF8C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5C31498429900F3DF8C /* Icon.png */; };
+		A5A2A5C61498429E00F3DF8C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5C51498429E00F3DF8C /* Icon@2x.png */; };
+		A5A2A5C8149842A300F3DF8C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5C7149842A300F3DF8C /* Icon-72.png */; };
+		A5A2A5CB1498437000F3DF8C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5CA1498437000F3DF8C /* Default.png */; };
+		A5A2A5CD1498437300F3DF8C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5CC1498437300F3DF8C /* Default@2x.png */; };
+		A5A2A5CF1498437900F3DF8C /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5CE1498437900F3DF8C /* Default-Portrait~ipad.png */; };
+		A5A2A5D11498437D00F3DF8C /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A2A5D01498437D00F3DF8C /* Default-Landscape~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5A2A59F14983B4600F3DF8C /* All the Way.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "All the Way.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A2A5A314983B4600F3DF8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5A2A5A514983B4600F3DF8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5A2A5AB14983B4600F3DF8C /* All the Way-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "All the Way-Info.plist"; sourceTree = "<group>"; };
+		A5A2A5AF14983B4600F3DF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A2A5C31498429900F3DF8C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A5A2A5C51498429E00F3DF8C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A5A2A5C7149842A300F3DF8C /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		A5A2A5CA1498437000F3DF8C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A5A2A5CC1498437300F3DF8C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A5A2A5CE1498437900F3DF8C /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		A5A2A5D01498437D00F3DF8C /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5A2A59C14983B4600F3DF8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A2A5A414983B4600F3DF8C /* UIKit.framework in Frameworks */,
+				A5A2A5A614983B4600F3DF8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5A2A59414983B4600F3DF8C = {
+			isa = PBXGroup;
+			children = (
+				A5A2A5A914983B4600F3DF8C /* All the Way */,
+				A5A2A5C9149842DD00F3DF8C /* Resources */,
+				A5A2A5A214983B4600F3DF8C /* Frameworks */,
+				A5A2A5A014983B4600F3DF8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A2A5A014983B4600F3DF8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A2A59F14983B4600F3DF8C /* All the Way.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A2A5A214983B4600F3DF8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5A2A5A314983B4600F3DF8C /* UIKit.framework */,
+				A5A2A5A514983B4600F3DF8C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5A2A5A914983B4600F3DF8C /* All the Way */ = {
+			isa = PBXGroup;
+			children = (
+				A5A2A5AB14983B4600F3DF8C /* All the Way-Info.plist */,
+				A5A2A5AF14983B4600F3DF8C /* main.m */,
+			);
+			name = "All the Way";
+			path = Brightness100;
+			sourceTree = "<group>";
+		};
+		A5A2A5C9149842DD00F3DF8C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5A2A5C31498429900F3DF8C /* Icon.png */,
+				A5A2A5C51498429E00F3DF8C /* Icon@2x.png */,
+				A5A2A5C7149842A300F3DF8C /* Icon-72.png */,
+				A5A2A5CA1498437000F3DF8C /* Default.png */,
+				A5A2A5CC1498437300F3DF8C /* Default@2x.png */,
+				A5A2A5CE1498437900F3DF8C /* Default-Portrait~ipad.png */,
+				A5A2A5D01498437D00F3DF8C /* Default-Landscape~ipad.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5A2A59E14983B4600F3DF8C /* All the Way */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A2A5C014983B4600F3DF8C /* Build configuration list for PBXNativeTarget "All the Way" */;
+			buildPhases = (
+				A5A2A59B14983B4600F3DF8C /* Sources */,
+				A5A2A59C14983B4600F3DF8C /* Frameworks */,
+				A5A2A59D14983B4600F3DF8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "All the Way";
+			productName = Brightness100;
+			productReference = A5A2A59F14983B4600F3DF8C /* All the Way.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5A2A59614983B4600F3DF8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Douglas Heriot Design";
+			};
+			buildConfigurationList = A5A2A59914983B4600F3DF8C /* Build configuration list for PBXProject "All the Way" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5A2A59414983B4600F3DF8C;
+			productRefGroup = A5A2A5A014983B4600F3DF8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5A2A59E14983B4600F3DF8C /* All the Way */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5A2A59D14983B4600F3DF8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A2A5C41498429900F3DF8C /* Icon.png in Resources */,
+				A5A2A5C61498429E00F3DF8C /* Icon@2x.png in Resources */,
+				A5A2A5C8149842A300F3DF8C /* Icon-72.png in Resources */,
+				A5A2A5CB1498437000F3DF8C /* Default.png in Resources */,
+				A5A2A5CD1498437300F3DF8C /* Default@2x.png in Resources */,
+				A5A2A5CF1498437900F3DF8C /* Default-Portrait~ipad.png in Resources */,
+				A5A2A5D11498437D00F3DF8C /* Default-Landscape~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5A2A59B14983B4600F3DF8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A2A5B014983B4600F3DF8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5A2A5BE14983B4600F3DF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5A2A5BF14983B4600F3DF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5A2A5C114983B4600F3DF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Brightness100/All the Way-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5A2A5C214983B4600F3DF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Brightness100/All the Way-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5A2A59914983B4600F3DF8C /* Build configuration list for PBXProject "All the Way" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A2A5BE14983B4600F3DF8C /* Debug */,
+				A5A2A5BF14983B4600F3DF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A2A5C014983B4600F3DF8C /* Build configuration list for PBXNativeTarget "All the Way" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A2A5C114983B4600F3DF8C /* Debug */,
+				A5A2A5C214983B4600F3DF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5A2A59614983B4600F3DF8C /* Project object */;
+}
